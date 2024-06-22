@@ -10,7 +10,7 @@ const Home = () => {
   
 
   return (
-    <main className={state.theme} >
+    <main className={state.theme ? "dark" : ""} >
       <h1>Home</h1>
       <div className='card-grid'>
         {state.list.map((dentist) => (

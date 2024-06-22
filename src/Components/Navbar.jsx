@@ -22,7 +22,7 @@ const Navbar = () => {
   //}
   
   return (
-    <div className={theme ? "dark" : "light"}>
+    <div className={theme ? "dark" : ""}>
     <div className={NavbarStyles.navContainer}>
       <h2>DH Odonto</h2>
       <nav>
